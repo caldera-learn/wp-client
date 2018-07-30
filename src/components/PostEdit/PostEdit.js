@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {postShape} from "../Post/postShape";
+
 export const PostEdit = (props) =>  {
 
 	const onChange = (update) => {
 		props.onChange({
 			...props.post,
-			update
+			...update
 		})
 	};
 	return(
@@ -18,11 +19,11 @@ export const PostEdit = (props) =>  {
 					type={'text'}
 					value={props.post.title.rendered}
 					onChange={(event) => {
-						onChange({post: {
+						onChange({
 							title: {
 								rendered: event.target.value
 							}
-						}})
+						})
 					}}
 				/>
 			</h3>

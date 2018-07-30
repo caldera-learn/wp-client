@@ -1,6 +1,11 @@
 import React from 'react';
 import {PostEdit} from "./PostEdit";
 import renderer from 'react-test-renderer';
+import {shallow} from 'enzyme';
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({adapter: new Adapter()});
+
 describe( 'PostEdit component', () => {
 	/** Mock WordPress post to test with**/
 	const post = {
@@ -34,4 +39,24 @@ describe( 'PostEdit component', () => {
 		);
 		expect( component.toJSON() ).toMatchSnapshot();
 	});
+
+	describe( 'Change events', () => {
+		it( 'Updates the post title', () => {
+			let updatedPost = {};
+			const component = shallow(
+				<PostEdit
+					onChange={(newValue) => {
+						updatedPost = newValue;
+					}}
+					post={post}
+					className={'food'}
+				/>
+			);
+			component.find( 'input' ).simulate( 'change', {
+				target: { value: 'New Title'}
+			});
+			expect( updatedPost.title.rendered ).toEqual( 'New Title' );
+		});
+	});
 });
+

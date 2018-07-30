@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="294596d6-542d-4fa9-acff-9a31b8d78b8e" name="Default" comment="" />
+    <list default="true" id="294596d6-542d-4fa9-acff-9a31b8d78b8e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostEdit/PostEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostEdit/PostEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PostEdit/PostEdit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PostEdit/PostEdit.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,8 +74,8 @@
       <file leaf-file-name="PostEdit.test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/PostEdit/PostEdit.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="-109">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -80,8 +86,8 @@
       <file leaf-file-name="PostEdit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/PostEdit/PostEdit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="38" column="12" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="12" />
+            <state relative-caret-position="-229">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -193,6 +199,13 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="PostEdit" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="wp-client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Posts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -231,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532970156316</updated>
-      <workItem from="1532970157484" duration="5267000" />
+      <workItem from="1532970157484" duration="6695000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5267000" />
+    <option name="totallyTimeSpent" value="6695000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="23" width="1912" height="877" extended-state="0" />
@@ -248,8 +261,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="npm" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.4923077" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21497326" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32948717" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21497326" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -365,8 +378,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PostEdit/PostEdit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="-229">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -375,8 +388,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/PostEdit/PostEdit.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="-109">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="40" selection-end-column="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
