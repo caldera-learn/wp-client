@@ -2,15 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {postShape} from "../Post/postShape";
 
-export const PostEdit = (props) =>  {
-
+export const PostEdit = (props) => {
 	const onChange = (update) => {
 		props.onChange({
 			...props.post,
 			...update
 		})
 	};
-	return(
+
+	return (
 		<div
 			className={props.className}
 		>
