@@ -15,7 +15,7 @@ exports[`Post component Applies className to outermost element 1`] = `
 
 exports[`Post component Matches snapshot with basic props 1`] = `
 <div
-  className={undefined}
+  className="post-wrapper"
 >
   <h3>
     Hi Roy

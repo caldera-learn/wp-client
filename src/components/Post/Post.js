@@ -16,5 +16,17 @@ export const Post = (props) =>  {
 };
 
 Post.propTypes = {
-	className: PropTypes.string
+	className: PropTypes.string.isRequired,
+	post: PropTypes.shape({
+		title: PropTypes.shape({
+			rendered: PropTypes.string,
+		}).isRequired,
+		content: PropTypes.shape({
+			rendered: PropTypes.string,
+		}).isRequired,
+	}).isRequired
+};
+
+Post.defaultProps = {
+	className: 'post-wrapper'
 };
