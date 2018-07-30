@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {postShape} from "./postShape";
 export const Post = (props) =>  {
 	return(
 		<div
@@ -17,14 +18,7 @@ export const Post = (props) =>  {
 
 Post.propTypes = {
 	className: PropTypes.string.isRequired,
-	post: PropTypes.shape({
-		title: PropTypes.shape({
-			rendered: PropTypes.string,
-		}).isRequired,
-		content: PropTypes.shape({
-			rendered: PropTypes.string,
-		}).isRequired,
-	}).isRequired
+	post: postShape
 };
 
 Post.defaultProps = {

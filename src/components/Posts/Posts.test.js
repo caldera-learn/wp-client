@@ -6,6 +6,7 @@ describe('Posts component', () => {
 	/** Mock WordPress post to test with**/
 	const posts = [
 		{
+			ID: '1',
 			title: {
 				rendered: 'Hi Roy'
 			},
@@ -14,6 +15,7 @@ describe('Posts component', () => {
 			}
 		},
 		{
+			ID: '2',
 			title: {
 				rendered: 'Hi Mike'
 			},
@@ -42,4 +44,5 @@ describe('Posts component', () => {
 		);
 		expect(component.toJSON()).toMatchSnapshot();
 	});
+
 });

@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Post} from "../Post/Post";
+import {postShape} from "../Post/postShape";
+
 export const Posts = (props) =>  {
 	return(
 		<div
@@ -8,24 +10,17 @@ export const Posts = (props) =>  {
 		>
 			{props.posts.map( post => {
 				return <Post
+					key={post.ID}
 					post={post}
 				/>
 			})};
 		</div>
 	);
 };
-
 Posts.propTypes = {
 	className: PropTypes.string.isRequired,
 	posts: PropTypes.arrayOf(
-			PropTypes.shape({
-			title: PropTypes.shape({
-				rendered: PropTypes.string,
-			}).isRequired,
-			content: PropTypes.shape({
-				rendered: PropTypes.string,
-			}).isRequired,
-		}).isRequired
+		postShape
 	)
 };
 
