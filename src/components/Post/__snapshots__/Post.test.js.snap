@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post component Matches snapshot with basic props 1`] = `
+<div>
+  <h3>
+    Hi Roy
+  </h3>
+  <div>
+    Lorem ipsum, etc.
+  </div>
+</div>
+`;
