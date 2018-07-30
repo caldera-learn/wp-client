@@ -1,7 +1,10 @@
 import React from 'react';
-export const  Post = (props) =>  {
+import PropTypes from 'prop-types';
+export const Post = (props) =>  {
 	return(
-		<div>
+		<div
+			className={props.className}
+		>
 			<h3>
 				{props.post.title.rendered}
 			</h3>
@@ -12,3 +15,6 @@ export const  Post = (props) =>  {
 	);
 };
 
+Post.propTypes = {
+	className: PropTypes.string
+};

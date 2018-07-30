@@ -20,4 +20,14 @@ describe( 'Post component', () => {
 		);
 		expect( component.toJSON() ).toMatchSnapshot();
 	});
+
+	it( 'Applies className to outermost element', () => {
+		const component = renderer.create(
+			<Post
+				post={post}
+				className={'food'}
+			/>
+		);
+		expect( component.toJSON() ).toMatchSnapshot();
+	});
 });
